@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nombre"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telfono"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="descripcin del contacto1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Button
+        android:id="@+id/btneditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="317dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

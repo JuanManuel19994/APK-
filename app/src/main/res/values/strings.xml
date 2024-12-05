@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MYAPP</string>
+    <string name="escribe_tu_nombre">Escribe tu nombre</string>
+    <string name="fecha_de_nacimiento">fecha_de_nacimiento</string>
+    <string name="seleccionar_fecha">seleccionar_fecha</string>
+    <string name="no_seleccionada">no_seleccionada</string>
+    <string name="tel_fono">tel_fono</string>
+    <string name="email">email</string>
+    <string name="editar_datos">Editar Datos</string>
+    <string name="guardar">guardar</string>
+    <string name="descripci_n_del_contacto">descripci_n_del_contacto</string>
+    <string name="enter_text">Enter text</string>
+    <string name="phone_number">Phone number</string>
+    <string name="telefono">telefono</string>
+    <string name="no_seleccionada1">no seleccionada</string>
+    <string name="email1">Email</string>
+    <string name="descripcin_del_contacto">descripcin del contacto</string>
+    <string name="fecha_de_nacimiento1">fecha de nacimiento</string>
+</resources>

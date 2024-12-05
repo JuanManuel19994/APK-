@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Campo de nombres completos -->
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/escribe_tu_nombre"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:padding="30dp"
+        android:textSize="16sp"/>
+
+    <!-- Campo Fecha de Nacimiento -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_de_nacimiento1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccionar_fecha"/>
+
+    <TextView
+        android:id="@+id/tvFechaSeleccionada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_seleccionada1"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Campo Teléfono -->
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/telefono"
+        android:inputType="phone" />
+
+    <!-- Campo Email -->
+    <EditText
+        android:id="@+id/myEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:hint="@string/email1"
+        android:textSize="16sp" />
+
+    <!-- Campo Descripción -->
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/descripcin_del_contacto"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón para enviar -->
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <!-- Botón editar datos -->
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_datos"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
